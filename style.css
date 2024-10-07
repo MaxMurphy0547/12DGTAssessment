@@ -27,7 +27,7 @@ header a {
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  padding-top: 60px;
+  background-color: #cfdef3;
 }
 
 footer {
@@ -38,8 +38,70 @@ footer {
   margin-top: 30px;
   background-color: #2b2b2b;
 }
+.cabins .cabin {
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.cabin {
+  margin: 0 10px;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f4f4f4;
+}
+
+article {
+  padding: 50px 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.topofpage p {
+  font-size: 24px;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+.topofpage h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
 
 .button {
   display: flex;
   gap: 20px;
 }
+
+img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.club-cabin-img {
+  width: 100%;
+  height: auto;
+}
+
+
+.topofpage {
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 2px 2px 2px black;
+}
+
